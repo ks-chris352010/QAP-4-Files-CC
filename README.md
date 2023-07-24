@@ -4,7 +4,7 @@ Project 1A (Claim calculator) and Project 1B (Graph)
 
 Modules required: tqdm, time, datetime, re.
 
-Written by: Christopher Cormier
+Written by: Christopher Cormier | 
 Written on: 2023/07/18 - 2023/07/20
 
 Description: 
