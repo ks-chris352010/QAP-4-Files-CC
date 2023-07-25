@@ -73,7 +73,7 @@ while True:
     # .T for type, less useful is equal to function name _ removed adjusted to title case.
 
     # Processing
-    InsurancePremium = Values[1] + ((Values[1] * Values[2]) * CarNumber)
+    InsurancePremium = Values[1] + (Values[1]-(Values[1] * Values[2]) * (CarNumber-1))
     ExtraCost = 0
     if ExtraLiability == "Y":
         ExtraCost += Values[3] * CarNumber
