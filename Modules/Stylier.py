@@ -206,5 +206,4 @@ def display():
             comp = comp + "\n" + BorderStyle["Y"][0] * (Constraint*2+SectionPadding)
     Memory[0].clear()
     Memory[1].clear()
-    add("reset")
     return comp

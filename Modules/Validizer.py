@@ -126,7 +126,6 @@ class Validate:
                     input_val = f"{input_val[:i]}{v}{input_val[i:]}"
             if error:
                 input_val = f"Error: {input_val} does not follow format: {phone_format}"
-                error = True
             else:
                 input_val = f"+{country_code} {input_val}"
         else:
